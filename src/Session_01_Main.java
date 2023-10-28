@@ -1,4 +1,4 @@
-public class Session_01 {
+public class Session_01_Main {
     public static void main(String[] args) {
         char [] c = {'e', 'l', 'e', 'r', 'i', 'n'};
         var ans = reverseString(c);
