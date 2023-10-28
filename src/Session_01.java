@@ -1,4 +1,4 @@
-public class Main {
+public class Session_01 {
     public static void main(String[] args) {
         showFizzBuzz(100);
     }
