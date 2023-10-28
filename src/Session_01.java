@@ -1,6 +1,8 @@
 public class Session_01 {
     public static void main(String[] args) {
-        showFizzBuzz(100);
+        char [] c = {'e', 'l', 'e', 'r', 'i', 'n'};
+        var ans = reverseString(c);
+        System.out.println(ans);
     }
 
     public static void showFizzBuzz(int n) {
@@ -18,5 +20,18 @@ public class Session_01 {
                 System.out.println(i);
             }
         }
+    }
+
+    public static String reverseString(char [] c) {
+        int i = 0;
+        int j = c.length - 1;
+        while (i < j) {
+            char temp = c[i];
+            c[i] = c[j];
+            c[j] = temp;
+            i++;
+            j--;
+        }
+        return new String(c);
     }
 }
